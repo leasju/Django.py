@@ -1,13 +1,21 @@
 {% include "platepalace/partials/head.html" %} <!-- Inclui o head do HTML aqui-->
 
 <body>
-    <header class="main-header-container">
-        <div class="main-header container"> 
-            <h1 style="font-family: berkshire-swash-regular">
-                <a class="main-logo" href="/"> Plate Palace </a> 
-                
+    {% include "platepalace/partials/header.html" %}
+    {% include "platepalace/partials/search.html" %}
+
+<main class="main-content-container">
+<div class="main-content main-content-list container">
+    <div class="pp-list-item">
+        <div class="pp-cover">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlREMiUNXX0xdhuQc84FGiZjYRFG6-M4s4sw&s" alt="Imagem do item">
         </div>
-    </header>
+    </div>
+</div>
+
+
+</main>
+   
 </body>
 
 </html>
